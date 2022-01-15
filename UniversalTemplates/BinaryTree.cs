@@ -4,6 +4,7 @@ namespace UniversalTemplates
 {
     public class BinaryTree<T> where T : IComparable<T>
     {
+        //
         private BinaryTree<T> parent, left, right;
         private T val;
         private List<T> listForPrint = new List<T>();
